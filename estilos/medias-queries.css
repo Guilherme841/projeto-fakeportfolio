@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 720px) {
+    .imagens {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .imagens {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
